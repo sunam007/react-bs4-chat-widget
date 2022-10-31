@@ -231,7 +231,7 @@ const Home = () => {
           </div>
 
           <div className="col-7 px-0">
-            <div className="px-4 py-5 chat-box bg-white">
+            <div className="d-flex flex-column px-4 py-5 chat-box bg-white">
               <div className="media w-50 mb-3">
                 <img
                   src="https://therichpost.com/wp-content/uploads/2020/06/avatar2.png"
@@ -249,7 +249,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="media w-50 ml-auto mb-3">
+              <div className="media align-self-end w-50 ml-auto mb-3">
                 <div className="media-body">
                   <div className="bg-primary rounded py-2 px-3 mb-2">
                     <p className="text-small mb-0 text-white">
@@ -277,7 +277,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="media w-50 ml-auto mb-3">
+              <div className="media align-self-end w-50 ml-auto mb-3">
                 <div className="media-body">
                   <div className="bg-primary rounded py-2 px-3 mb-2">
                     <p className="text-small mb-0 text-white">
@@ -305,7 +305,7 @@ const Home = () => {
                 </div>
               </div>
 
-              <div className="media w-50 ml-auto mb-3">
+              <div className="media align-self-end w-50 ml-auto mb-3">
                 <div className="media-body">
                   <div className="bg-primary rounded py-2 px-3 mb-2">
                     <p className="text-small mb-0 text-white">
