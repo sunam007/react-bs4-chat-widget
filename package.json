@@ -7,6 +7,8 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.2",
+    "bootstrap-4-react": "^0.0.59",
+    "bootstrap4-toggle": "^3.6.1",
     "jquery": "^3.6.1",
     "jquery-slim": "^3.0.0",
     "react": "^18.2.0",

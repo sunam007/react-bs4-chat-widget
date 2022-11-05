@@ -36,7 +36,7 @@ const UserDetails = () => {
           </div>
         </div>
         <div
-          className="card bg-light  border-light mx-auto mb-3 shadow"
+          className="card bg-light  border-light mx-auto mb-3 "
           style={{ width: "90%" }}
         >
           <div class="card-body">

@@ -1,6 +1,10 @@
-.messages-box,
-.chat-box,
-.user-info-box {
-  height: 510px;
+.messages-box {
+  height: 580px;
   overflow-y: scroll;
 }
+
+/* .chat-box,
+.user-info-box{
+  height: 510px;
+  overflow-y: scroll;
+} */

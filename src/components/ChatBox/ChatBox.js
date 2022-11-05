@@ -89,21 +89,54 @@ const ChatBox = () => {
         </div>
       </div>
 
-      <form action="/" className="bg-light">
-        <div className="input-group align-items-center">
-          <input
-            type="text"
-            placeholder="Type a message"
-            aria-describedby="button-addon2"
-            className="form-control rounded-0 border-0 py-3 bg-light"
-          />
-          <div className="input-group-append">
-            <button id="button-addon2" type="button" className="btn btn-link">
-              {" "}
-              <i className="fa fa-paper-plane"></i>
-            </button>
+      <form className=" border border-white rounded ">
+        {/* message input starts*/}
+        <input
+          id="input"
+          className=" border-0 w-100 mx-auto p-3 bg-light"
+          type="text"
+          placeholder="Type a message ..."
+        />
+        {/* message input ends */}
+
+        {/* extra buttons with features starts here */}
+        <div className="container pb-2  bg-light">
+          <div className="row align-items-center">
+            <div className="col ms-2 ">
+              <input
+                className=""
+                type="checkbox"
+                checked
+                data-toggle="toggle"
+                data-on="<i class='fa fa-lock'></i> Private"
+                data-off="<i class='fa fa-unlock'></i> Default"
+              ></input>
+            </div>
+            <div className="col-6 me-5">
+              <i
+                class="fa fa-hashtag d-inline-block mx-3"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-paperclip d-inline-block mx-3"
+                aria-hidden="true"
+              ></i>
+              <i
+                class="fa fa-smile-o d-inline-block mx-3"
+                aria-hidden="true"
+              ></i>
+            </div>
+            <div className="col">
+              <button className="border-0 bg-transparent text-primary">
+                <i
+                  class="fa fa-paper-plane d-inline-block ms-5"
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
           </div>
         </div>
+        {/* extra buttons with features ends here  */}
       </form>
     </div>
   );
