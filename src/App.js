@@ -2,6 +2,7 @@
 //Importing bootstrap and other modules
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import CardLevelOne from "./components/CardLevelOne/CardLevelOne";
 import ChatBox from "./components/ChatBox/ChatBox";
 import Conversations from "./components/Conversations/Conversations";
 

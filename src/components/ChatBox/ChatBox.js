@@ -1,8 +1,9 @@
 import React from "react";
+import CardLevelOne from "../CardLevelOne/CardLevelOne";
 import "./ChatBox.css";
 const ChatBox = () => {
   return (
-    <div className="col-6 px-0">
+    <div className="col-6 px-0 position-relative">
       <div className="d-flex flex-column px-4 py-5 chat-box bg-white">
         <div className="media w-50 mb-3">
           <img
@@ -88,8 +89,8 @@ const ChatBox = () => {
           </div>
         </div>
       </div>
-
-      <form className=" border border-white rounded ">
+      <CardLevelOne />
+      <form className=" border border-white rounded">
         {/* message input starts*/}
         <input
           id="input"
